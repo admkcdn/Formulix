@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sounds">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="forzaFerrari"
+        android:text="Forza Ferrari"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="aman"
+        android:text="Aman aman aman Sebastian Vettel"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="buthere"
+        android:text="But Here Comes Sebastian Vettel"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="noMikey"
+        android:text="No maykıy no"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="mylord"
+        android:text="oh my lord "
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="bababa"
+        android:text="bam ba ba ba bam bam "
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="bariyer"
+        android:text="sebastian vettel bariyerlerde"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="stupid"
+        android:text="ı am stupıd"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="373dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:onClick="wdc"
+        android:text="max verstappen you are the world champion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
